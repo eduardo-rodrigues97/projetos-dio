@@ -1,0 +1,22 @@
+body{
+    background: lightgray;
+}
+
+h2{
+    background: black;
+    color: white;
+}
+
+
+/* Barra de navegação */
+
+.navegation-bar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.navegation-bar ul{
+    list-style-type: none;
+  }
