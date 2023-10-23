@@ -1,0 +1,116 @@
+@font-face {
+    font-family: raleway;
+    src: url(../Fontes/Raleway-Regular.ttf);
+    font-weight: normal;
+}/* Normal */
+@font-face {
+    font-family: raleway;
+    src: url(../Fontes/Raleway-Black.ttf);
+    font-weight: bold;
+}/* Negrito */
+
+*{
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    color: white;
+    
+    
+}
+
+
+
+/* Parte 1 */
+#p1 {
+    height: 605px;
+    border: 1px solid #33A8DB;
+    background:
+    url(./background-01.png),
+    linear-gradient(#091b23,rgba(0, 0, 0, 1));
+    background-origin: border-box;
+}
+
+#p1 img{
+    
+    padding: 20px;
+    border-radius: 100%;
+    background: radial-gradient(black, transparent)
+}
+
+#p1 button{
+    width: 326px;
+    height: 57px;
+    background: transparent;
+    color: #33A8DB;
+    border: 2px solid #33A8DB;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+
+
+/* Parte 2 */
+#p2{
+    height: 605px;
+    border: 1px solid #33A8DB;
+}
+
+#p2 .box{
+    width: 535px;
+    height: 51px;
+    background: #252525;
+    border: 2px solid #33A8DB;
+    border-radius: 57px;
+}
+
+#p2 .box b{
+    color: #33A8DB;
+}
+
+
+/* Parte 3 */
+#p3{
+    height: 363px;
+    border: 1px solid #33A8DB;
+    background: url(./background-02.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#p3 h2{
+    padding:70px ;
+    padding-left:60px ;
+    font-size: 40px;
+    height: 100%;
+    width: 300px;
+    color: white;
+    text-shadow: 3px 3px #33A8DB;
+}
+
+
+/* Parte 4 */
+#p4{
+    height: 605px;
+    border: 1px solid #33A8DB;
+}
+
+
+
+/* Parte 5 */
+#p5{
+    height: 170px;
+    background: linear-gradient(black,#0a212b);
+}
+
+#p5 p a{
+    color: blue;
+    text-decoration: none;
+}

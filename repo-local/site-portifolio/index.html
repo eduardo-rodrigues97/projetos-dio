@@ -4,76 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+
     <link rel="stylesheet" href="./assets/css/style.css"><!-- #Link de referencia ao CSS-->
 </head>
 <!-- #Fim HEAD-->
+
+
+
 <body>
     <!-- #Menu de navegação-->
-    <div class="navegation-bar">
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#resumo">Resumo</a></li>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#contact">Formulario de contato</a></li>
+    <div id="header">
+        <a href="#header">Portifolio</a>
+        <ul id="menu">
+            <li><a href="#">Resumo</a></li>
+            <li><a href="#">Experiência</a></li>
+            <li><a href="#">Contato</a></li>
         </ul>
+
+    </div>
+
+    <div id="card01">
+        <img src="./bg1.jpg">
+    </div>
+
         
-    </div>
-    <!-- #capa-->
-    <div class="capa">
-        <h1 >Eduardo Rodrigues</h1>
-        <a href="https://www.linkedin.com/in/eduardohenriquemr/" target="_blank">Linkedin</a>
-
-    </div>
-    <!-- #Resumo Proficional-->
-    <div class="resumo">
-        <h2>Resumo</h2>
-        <p>
-            Carreira consolidada no setor comercial a 5 anos, me
-            desenvolvendo habilidades em analise de serviços, analise de
-            dados, acompanhamento de metas, desenvolvimento de métricas ,
-            desenvolvimento de dashboards e analises em Power BI, Excel,
-            Power Point.
-        </p><br>
-
-        <p>
-            Cursando MBA em inteligência em negócios (business intelligence)
-            pela Universidade Estácio de Sá, formado em Administração pela
-            Faculdade Internacional Signorelli, cursando 2° graduação em
-            Análise e desenvolvimento de sistemas pela Universidade Estácio
-            de Sá.
-        </p>
-    </div>
-    <!-- #Experiencias-->
-    <div class="experiencia">
-        <h2>Experiência</h2>
-        <ul>
-            <ul>
-                <li>Aguas do Rio</li>
-                <ul>
-                    <li>Analista Jr.</li>
-                    <li>Programador de serviços</li>
-                    <li>Agente de saneamento</li>
-                </ul>
-                <li>Rodrigues Correia advogados associados</li>
-                <ul>
-                    <li>Auxilias de escritório</li>
-                </ul>
-            </ul>
-        
-        </ul>
-    </div>
-    <!-- #Formulario de contato-->
-    <div class="contact">
-        <h2>Contato</h2>
-        <form method="get">
-            <label>Nome: </label><input type="text" name="Nome"><br>
-            <label>Telfone: </label><input type="number" name="telefone"><br>
-            <label>E-mail: </label><input type="text" name="email"><br>
-            <label>Assunto: </label><textarea name="assunto"></textarea><br>
-            <button type="submit" value="Enviar" onclick="alert('As informações foram enviadas')">Enviar</button>
-
-
-        </form>
-    </div>
+    
 </body>
 </html>
