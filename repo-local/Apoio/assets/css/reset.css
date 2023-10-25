@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.logo a {
+    text-transform: uppercase;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.menu{
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
