@@ -1,0 +1,52 @@
+*{
+    font-family: "DejaVu Sans Mono", monospace;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    height: 3vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}
+
+
+.header a {
+    margin-left: 1vw;
+}
+
+
+
+.header img {
+    width: 2vw;
+    height: 1.8vw;
+}
+
+.menu a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    padding: 7px;
+    background: rgb(58, 58, 58);
+    border: none;
+    border-radius: 10px;
+    
+}
+
+button:active {
+    background: rgb(92, 92, 92);
+}

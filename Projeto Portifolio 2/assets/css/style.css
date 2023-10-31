@@ -1,0 +1,105 @@
+@import url(./reset.css);
+
+
+
+
+
+/* Animação H1 */
+@keyframes bounce-top {
+    0% {
+      transform: translateY(-450px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(-24px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateY(-12px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateY(-6px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateY(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+
+
+
+.home {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #222831  ,#22283100);/* Gradiente acima do bg */
+    
+}
+
+/* COnfiguração da img do BG */
+.home::before {
+    position: absolute;
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/bg1.jpg);
+    filter: grayscale(90%) blur(7px);
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+.home-content {
+    width: 50vw;
+    padding: 50px;
+    background: rgba(041,056,072, 0.8);
+    border-radius: 0 10px 10px 0;
+
+}
+
+.home-img {
+    width: 50vw;
+    background-color: transparent;
+
+}
+
+h1 {
+    font-size: 40px;
+    animation: bounce-top 2s both;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.home-content p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
+
+

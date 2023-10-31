@@ -1,0 +1,145 @@
+@import url(./reset.css);
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.90)),url(../img/bgest.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 30vw;
+}
+
+
+h1 {
+    color: white;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 70px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title-curso {
+    background-color: #272829;
+    color: white;
+    height: 2vw;
+    text-align: center;
+    margin: 0;
+}
+
+.title-curso h2 {
+    margin: 0;
+}
+
+.box-card-ed-formação {
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    background-color: white;
+    text-align: center;
+}
+
+
+.box-card-ed {
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1vw;
+}
+
+li{
+    list-style: none;
+}
+
+.box-card {
+    margin: 1vw;
+    width: 20vw;
+    height: 16vw;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.box-card a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.img-box-card {
+    border-radius: 1vw 1vw 0 0;
+    width: 20vw;
+    height: 12vw;
+    
+    
+}
+
+#i1 {
+    background: url(../img/i1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i2 {
+    background: url(../img/i2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i3 {
+    background: url(../img/i3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i4 {
+    background: url(../img/i4.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i5 {
+    background: url(../img/i5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i6 {
+    background: url(../img/i6.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i7 {
+    background: url(../img/i7.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i8 {
+    background: url(../img/i8.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#i9 {
+    background: url(../img/i9.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}

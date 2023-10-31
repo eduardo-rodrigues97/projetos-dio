@@ -1,0 +1,43 @@
+@import url(./reset.css);
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.90)),url(../img/bgex.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 30vw;
+}
+
+
+h1 {
+    color: white;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 70px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-card-exp {
+    padding: 1vw;
+    margin-top: 3px;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    background-color: #272829;
+}
+
+
+.card-exp {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    animation:forwards;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

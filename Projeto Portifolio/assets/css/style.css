@@ -1,0 +1,48 @@
+@import url(./reset.css);
+
+
+.home-body {
+    background: linear-gradient(rgba(27, 27, 27, 0.95),rgba(0, 0, 0, 0.95)),url(../img/bg1.jpg);
+    background-size: cover;
+    display: flex;
+    height: 48.2vw;
+
+}
+
+.p1 {
+    background-color: rgba(128, 128, 128, 0.342);
+    padding: 10vw;
+    border-right: rgba(182, 182, 182, 0.5) ;
+    display: inline;
+}
+
+
+
+.card .logo-img {
+    width: 30vw;
+    height: 5vw;
+}
+.p1 .texto {
+    width: 30vw;
+    height: 5vw;
+
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.icon-link {
+    display: flex;
+}
+
+
+.icon-link img {
+    width: 2vw;
+    height: 2vw;
+}
+
+
